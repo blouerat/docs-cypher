@@ -41,7 +41,7 @@ CYPHER eagerAnalyzer=lp MATCH (a)-->(b) DELETE b RETURN a
 a|
 
 The Cypher query option `eagerAnalyzer` is deprecated and will be removed without a replacement.
-The option is ignored, eagerness analysis is systematically performed on the logical plan regardless of the value provided.
+Eagerness analysis is systematically performed on the logical plan regardless of the value provided.
 
 |===
 
